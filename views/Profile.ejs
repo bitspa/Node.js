@@ -8,5 +8,14 @@
     <h1>
       Welcome! Mr <%= name%>
     </h1>
+    <h3>Your Email is:<%= data.email%></h3>
+    <h3>Your Phone Number is:<%= data.phoneNumber%></h3>
+    <ul>
+    <% data.skills.forEach(function(items)
+    {
+      %>
+      <li><%= items%></li>
+    <%})%>
+    </ul>
   </body>
 </html>
