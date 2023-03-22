@@ -8,3 +8,4 @@ var userSchema = new Schema({
   Address: String
 });
 module.exports = mongoose.model('Sea', userSchema)
+//new
